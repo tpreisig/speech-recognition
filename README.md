@@ -2,11 +2,11 @@
 
 Simple speech recognition application using the Web Speech API. 
 Overview of what it does:
- 1. It initializes the Web Speech API components (SpeechRecognition, SpeechGrammarList, and SpeechRecognitionEvent).
- 2.  It sets up the speech recognition instance with specific configurations such as language, grammar, and result handling.
- 3.  It dynamically generates a list of colors and displays them as hints on the webpage.
- 4.  It starts the speech recognition process when the user clicks anywhere on the body of the document.
- 5.  It processes the recognized speech to change the background color of the webpage based on the spoken color.
+ 1. Initializing the Web Speech API components (SpeechRecognition, SpeechGrammarList, and SpeechRecognitionEvent).
+ 2. Setting up the speech recognition instance with specific configurations such as language, grammar, and result handling.
+ 3. Generating a list of colors and displays them as hints on the webpage.
+ 4. Starting the speech recognition process when the user clicks anywhere on the body of the document.
+ 5. Processing the recognized speech to change the background color accordingly.
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
