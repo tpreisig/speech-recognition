@@ -39,3 +39,4 @@ recognition.onresult = (event) => {
 recognition.onspeechend = () => {
     recognition.stop();
 };
+
