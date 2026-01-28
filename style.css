@@ -9,7 +9,7 @@ body {
     background: rgb(210, 230, 236);
     background-color: turquoise;
     display: flex;
-    gap: 35px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -20,27 +20,35 @@ body {
 
 h1 {
     font-size: 2.4rem;
+    width: 100%;
+    background: rgb(50,50,250,0.2);
 }
 
 .hints {
     display: flex;
+    flex: 1;
     flex-direction: column;
     gap: 12px;
     padding: 12px 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     background-color: rgb(210, 230, 236);
     background-image:
         linear-gradient(to top, #fff 2px, transparent 2px),
         linear-gradient(to right, #fff 2px, transparent 2px);
-    background-size: 55px 55px;
+    background-size: 120px 120px;
     background-position: center;
-    padding-bottom: 30px;
-    color: rgba(0, 0, 0, 0.7);
-    text-shadow: none;
-    border: 30px solid rgba(255,255,255,0.4);
+    padding: 30px;
+    color: white;
+
+    border: 3px solid rgba(255,255,255,0.8);
     border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+.hints:hover{
+    cursor: pointer;
+    box-shadow: none;
 }
 
 .hints span {
@@ -48,7 +56,7 @@ h1 {
     align-items: center;
     margin: 0 auto;
     padding: 4px 12px;
-    width: 148px;
+    width: 320px;
     transform: translateX(1px);
     color: #fff;
     text-shadow: 1px 0.6px 0 rgba(0, 0, 0, 0.7);
@@ -57,4 +65,8 @@ h1 {
 
 .output {
     font-size: 1.5rem;
+    width: 100%;
+    padding: 12px 0;
+    background: rgb(50,50,250,0.2);
+
 }

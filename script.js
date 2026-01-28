@@ -23,7 +23,7 @@ colors.forEach((color, n) => {
     console.log(color, n);
     bgColor += `<span style="background-color:${color};">${color} </span>`;
 });
-hints.innerHTML = `Click then say a color to change the background color <br> _${bgColor}`;
+hints.innerHTML = `Click & <br>Say a color to change the background color <br> ${bgColor}`;
 
 document.body.onclick = () => {
     recognition.start();
